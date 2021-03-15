@@ -18,14 +18,14 @@
                         @can('isAdmin')
                         <ul class="nav nav-pills nav-justified">
                             <li><a class="btn btn-info" href="">Home</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <li class="active"><a class="btn btn-info" href="">Client Orders</a>
+                            <li class="active"><a class="btn btn-info" href="{{route('Sendsms')}}">Send Complaints</a>
                             </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <div class="dropdown">
-                                <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Stock
+                           <!-- <div class="dropdown">
+                                <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Complaints
                                     <span class="caret"></span></button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="btn btn-info" href="">Add stock</a></li>
-                                    <li><a class="btn btn-info" href="">Available stock</a></li>
+                                    <li><a class="btn btn-info" href="{{route('Sendsms')}}">View</a></li>
+                                    <li><a class="btn btn-info" href="">Coment Status</a></li>
 
 
                                 </ul>
@@ -35,26 +35,25 @@
                                     data-toggle="dropdown">Updates
                                     <span class="caret"></span></button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="btn btn-info" href="">Update a status</a></li>
-                                    <li><a class="btn btn-info" href="">Posted status</a></li>
+                                    <li><a class="btn btn-info" href="">Update a Exam</a></li>
+                                    <li><a class="btn btn-info" href="">Posted Exam</a></li>
                                 </ul>
                             </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                         </ul>
-                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  -->
                     @endcan
                     <div>
                         @can('isAuthor')
                         <ul class="nav nav-pills nav-justified">
                             <li><a class="btn btn-info" href="">Home</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <li class="active"><a class="btn btn-info" href="">Client Orders</a>
+                            <li class="active"><a class="btn btn-info" href="{{route('Sendsms')}}">Reply To Complaints</a>
                             </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <div class="dropdown">
-                                <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Stock
+                           <!-- <div class="dropdown">
+                                <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Staffs
                                     <span class="caret"></span></button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="btn btn-info" href="">Add stock</a></li>
-                                    <li><a class="btn btn-info" href="">Available stock</a></li>
-
+                                    <li><a class="btn btn-info" href="">Add Admin</a></li>
+                                    <li><a class="btn btn-info" href="">Available Admin
 
                                 </ul>
                             <!-- </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -72,11 +71,11 @@
                     @endcan
                     <div>
                         @can('isEditor')
-                        <!-- <ul class="nav nav-pills nav-justified">
+                        <ul class="nav nav-pills nav-justified">
                             <li><a class="btn btn-info" href="">Home</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <li class="active"><a class="btn btn-info" href="">Client Orders</a>
+                            <li class="active"><a class="btn btn-info" href="{{route('Sendsms')}}">Send Complaints</a>
                             </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <div class="dropdown">
+                           <!-- <div class="dropdown">
                                 <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Stock
                                     <span class="caret"></span></button>
                                 <ul class="dropdown-menu">
@@ -84,7 +83,7 @@
                                     <li><a class="btn btn-info" href="">Available stock</a></li>
 
 
-                                </ul> -->
+                                </ul> 
                             </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                             <div class="dropdown">
                                 <button class="btn btn-info dropdown-toggle" type="button"
@@ -96,7 +95,7 @@
                                 </ul>
                             </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                         </ul>
-                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->
                     @endcan
                 </div>
             </div>

@@ -47,9 +47,9 @@
                             <div class="col-md-6">
                             <select class="form-control" id="user_type" name="user_type">
                             <option selected>Open this select menu</option>
-                            <option value="admin">admin</option>
-                            <option value="author">author</option>
-                            <option value="editor">editor</option>
+                            <option value="admin">head</option>
+                            <option value="author">admin</option>
+                            <option value="editor">customer</option>
                             </select>
                                 
                                
@@ -60,7 +60,7 @@
                                 @endif
                             </div>
                         </div>
-                        <br><br>
+                        
 
                         <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>

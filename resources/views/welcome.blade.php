@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Kenya Power</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -13,7 +13,9 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-image:url('image/kw1.jpg');
+                background-repeat:no-repeat;
+                background-size:cover;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -46,11 +48,13 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 90px;
+                color:black;
+                background-color:green;
             }
 
             .links > a {
-                color: #636b6f;
+                color: black;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -61,6 +65,17 @@
 
             .m-b-md {
                 margin-bottom: 30px;
+            }
+            p{
+                color:black;
+                font-size:40px;
+                
+                
+            }
+            ul,li{
+                color:black;
+                font-size:30px;
+                background-color:blue;
             }
         </style>
     </head>
@@ -79,17 +94,24 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                  Kenya Power Blackout Online Service
                 </div>
-
-                <div class="links">
+      <p>You can now report power blackout online</p>
+      <p>
+      <ul>
+      <li>First, create account</li>
+      <li>Aftter creating account, you can now login and able to send your complaints</li>
+      <li>Ensure you indicate your working phone number to be contacted with or reply by kenya power in the description field</li>
+      </ul>
+      </p>
+               <!-- <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </body>
