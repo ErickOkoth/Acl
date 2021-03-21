@@ -41,6 +41,7 @@
                 position: absolute;
                 right: 10px;
                 top: 18px;
+                
             }
 
             .content {
@@ -48,9 +49,11 @@
             }
 
             .title {
-                font-size: 90px;
+                font-size: 50px;
+                text-align:center;
+                padding-bottom:100px;
                 color:black;
-                background-color:green;
+                
             }
 
             .links > a {
@@ -94,8 +97,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  Kenya Power Blackout Online Service
+                  
                 </div>
+                
       <p>You can now report power blackout online</p>
       <p>
       <ul>
