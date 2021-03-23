@@ -18,18 +18,18 @@
                         @can('isAdmin')
                         <ul class="nav nav-pills nav-justified">
                             <li><a class="btn btn-info" href="">Home</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <li class="active"><a class="btn btn-info" href="{{route('Sendsms')}}">Send Complaints</a>
-                            </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                           <!-- <div class="dropdown">
+                           <!-- <li class="active"><a class="btn btn-info" href="{{route('Sendsms')}}">Send Complaints</a>
+                            </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->
+                           <div class="dropdown">
                                 <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Complaints
                                     <span class="caret"></span></button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="btn btn-info" href="{{route('Sendsms')}}">View</a></li>
-                                    <li><a class="btn btn-info" href="">Coment Status</a></li>
+                                    <li><a class="btn btn-info" href="{{route('Smsview')}}">View</a></li>
+                                    <li><a class="btn btn-info" href="{{route('Sendsms')}}">Coment Status</a></li>
 
 
                                 </ul>
-                            </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                           <!-- </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                             <div class="dropdown">
                                 <button class="btn btn-info dropdown-toggle" type="button"
                                     data-toggle="dropdown">Updates
@@ -40,9 +40,9 @@
                                 </ul>
                             </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                         </ul>
-                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  -->
+                    </div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
                     @endcan
-                    <div>
+                    <div> -->
                         @can('isAuthor')
                         <ul class="nav nav-pills nav-justified">
                             <li><a class="btn btn-info" href="">Home</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp

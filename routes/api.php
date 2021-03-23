@@ -19,4 +19,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::get('/sms', 'SmsController@sms')->name('Sendsms');
+
 Route::post('/sms', 'SmsController@sendsms')->name('postsms');
+Route::get('/smsview', 'SmsController@view')->name('Smsview');

@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Sms extends Model
 {
     //
-    protected $fillable=['name', 'street', 'complaints'];
+    protected $fillable=['phone', 'sms'];
 }
