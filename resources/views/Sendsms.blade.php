@@ -35,6 +35,8 @@
 						</form>
 						<br>
 						<a href="{{ route('home') }}"><button class="btn btn-danger btn-lg btn-close">Cancel</button></a>
+
+						<a class="btn btn-primary btn-lg" href="{{route('Smsview')}}">View Complaints</a>
 					</div>
 				</div>
 			</div>

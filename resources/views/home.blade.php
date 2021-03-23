@@ -24,8 +24,8 @@
                                 <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Complaints
                                     <span class="caret"></span></button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="btn btn-info" href="{{route('Smsview')}}">View</a></li>
-                                    <li><a class="btn btn-info" href="{{route('Sendsms')}}">Coment Status</a></li>
+                                    <li><a class="btn btn-info" href="{{route('Smsview')}}">View Complaints</a></li>
+                                    <li><a class="btn btn-info" href="{{route('Sendsms')}}">Send Complaints</a></li>
 
 
                                 </ul>

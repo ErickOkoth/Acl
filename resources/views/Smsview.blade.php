@@ -10,7 +10,7 @@
 					<div class="card-header"> View Sms</div>
 
 					<div class="card-body">
-						
+					
 <table class="table table-bordered table-hover">
 	<thead class="table-dark">
 	<th>Sms Id</th>
@@ -28,9 +28,13 @@
 			
 	
 		</tr>
+		
 		@endforeach
+		
 	</tbody>
+
 </table>
+<a class="btn btn-primary btn-lg" href="{{route('Sendsms')}}">Send complaints</a>
 
 					</div>
 				</div>
